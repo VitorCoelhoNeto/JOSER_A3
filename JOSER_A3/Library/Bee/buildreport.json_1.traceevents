@@ -1,0 +1,544 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1653672011370721, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672011373731, "dur": 73938, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672011447885, "dur": 224147, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672011672064, "dur": 2140680, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672013812747, "dur": 6872254, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672020685024, "dur": 10702, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672055430962, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672055431411, "dur": 12128, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672055443599, "dur": 6509548, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672061953152, "dur": 2291, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672226610948, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672226610975, "dur": 54545, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672226665523, "dur": 1017349, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672227682874, "dur": 9685, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672254015841, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672254015872, "dur": 7465, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672254023342, "dur": 124305, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672254147657, "dur": 1257321, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672255404980, "dur": 3422213, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672258827208, "dur": 1963, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672258830679, "dur": 271, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1653672255045980, "dur": 331053, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255047261, "dur": 89928, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255349820, "dur": 7350, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255357176, "dur": 19837, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255358187, "dur": 17009, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255386812, "dur": 3503, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653672255384982, "dur": 5381, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672258831170, "dur": 828, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1653672255517490, "dur":3680, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672255521178, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1653672255521260, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1653672255521284, "dur":1360, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1653672255522708, "dur":1545, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672255524253, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258764538, "dur":420, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258764958, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765035, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765041, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765066, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765077, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765092, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765096, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765104, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765108, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765115, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765119, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765126, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765129, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765138, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765141, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765150, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765177, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258765225, "dur":5500, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1653672255523518, "dur":775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255524298, "dur":7816, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255532193, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653672255532195, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255532314, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653672255532326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255534076, "dur":9475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1653672255543575, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1653672255543726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255543737, "dur":31336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1653672255575159, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1653672255575249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255575258, "dur":278067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1653672255853440, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672255853513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672255853520, "dur":1719650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257573261, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257573353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672257573363, "dur":87562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257661018, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257661095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672257661103, "dur":50274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257711497, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672257711594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672257711655, "dur":453314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258165059, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258165174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258165184, "dur":131922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258297231, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258298668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258298681, "dur":24153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258322927, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258323383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258323393, "dur":15177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258338667, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258340318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258340330, "dur":6986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258347403, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258347821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258347835, "dur":17266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258365230, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258365586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258365600, "dur":4525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258370220, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258370320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258370334, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258372944, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258373132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258373294, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258378325, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258378408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258378420, "dur":27834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258406379, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258406465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258406478, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258409552, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258409648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258409659, "dur":12759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258422502, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258422606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258422616, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258425662, "dur":32347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258458014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258460521, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653672258462530, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1653672258462614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653672258462625, "dur":12875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1653672258475589, "dur":288946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255523674, "dur":651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255524326, "dur":7901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255532228, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1653672255532380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255543381, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1653672255545758, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1653672255545874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255545886, "dur":29227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1653672255575224, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1653672255576073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255576367, "dur":236891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1653672255813378, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672255813487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672255813788, "dur":1571942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257385845, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257385976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672257385988, "dur":185217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257571434, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257571542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672257571554, "dur":86366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257658000, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672257658077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672257658086, "dur":476068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258134245, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258134327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258134338, "dur":63110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258197534, "dur":2344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258199887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258199900, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258205177, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258205261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258205273, "dur":57056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258262426, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258262511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258262523, "dur":99748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258362368, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258362627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258362639, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258364908, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258365380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258365392, "dur":17307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258382787, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258382895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258382908, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258386189, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258386342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258386405, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258389835, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258389946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258389962, "dur":13830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258403934, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258404295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258404308, "dur":10013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258414640, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258414797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258414810, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258418335, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258418423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258418434, "dur":9059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653672258427580, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1653672258427662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258427752, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1653672258432749, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258432852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258433132, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258436529, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258436624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258436632, "dur":13472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258450262, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653672258450361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258450372, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1653672258452975, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258453038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258453045, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1653672258454728, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1653672258454785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258454813, "dur":6243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1653672258461173, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1653672258461251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653672258461261, "dur":12272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1653672258473636, "dur":290929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255523666, "dur":644, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255524310, "dur":7855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255532194, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1653672255532406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255561163, "dur":14904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1653672255576164, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672255576267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255576273, "dur":236602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672255813036, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672255813127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672255813631, "dur":1572565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672257386301, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672257386414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672257386422, "dur":755362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258141928, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258142017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258142029, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258144412, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258144495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258144518, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258147003, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258147085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258147097, "dur":91576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258238788, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258238886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258238897, "dur":101644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258340674, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258340775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258340785, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258345009, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258345099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653672258345112, "dur":139491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653672258484667, "dur":279895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255523768, "dur":592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255524360, "dur":7825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255532194, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653672255532382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255543476, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1653672255546333, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1653672255546428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255547307, "dur":27660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1653672255575047, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653672255575137, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255575249, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653672255579146, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1653672255579231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255579242, "dur":233639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1653672255812975, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672255814769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672255814940, "dur":1749010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257564037, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257564255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672257564266, "dur":93222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257657589, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257657672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672257657683, "dur":170555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257828308, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257828405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672257828429, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257831508, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257831618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672257831629, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257834962, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672257835022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672257835029, "dur":329355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258164506, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258164587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672258164598, "dur":128209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258293007, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258293118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672258293130, "dur":49742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258343091, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258343217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672258343232, "dur":121731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653672258466544, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1653672258466641, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653672258466661, "dur":8427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1653672258475199, "dur":289334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255523848, "dur":527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255524375, "dur":7805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255532193, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1653672255532388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255544953, "dur":30862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1653672255575903, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1653672255575987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255575997, "dur":236247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1653672255812337, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1653672255812453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255812922, "dur":10194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1653672255823258, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672255823462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672255823475, "dur":1745651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257569955, "dur":2864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257572826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257572838, "dur":42151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257615072, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257615148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257615159, "dur":7565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257622860, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257622965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257622976, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257625645, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257625756, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257625774, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257628286, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257628424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257628435, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257631235, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257631313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257631323, "dur":5619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257637038, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257637129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257637140, "dur":56240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257693497, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257693586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257693597, "dur":18249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257711919, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672257712010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672257712016, "dur":452277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258164485, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258164586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672258164598, "dur":4641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258169346, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258169437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672258169448, "dur":109540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258279075, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258279160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672258279172, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258284691, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258284781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653672258284845, "dur":269876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653672258554780, "dur":209763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255524067, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255524391, "dur":7785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255532193, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1653672255532411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255561310, "dur":14533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1653672255575933, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672255576223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255576547, "dur":236446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672255813085, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672255813189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672255813694, "dur":1572834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257386615, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257386696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257386704, "dur":189533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257576322, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257576406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257576414, "dur":27237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257603733, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257603822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257603848, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257607042, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257607161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257607233, "dur":8888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257616204, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257616849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257616863, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257621140, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257621218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257621228, "dur":68289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257689619, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257689717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257689727, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257692514, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672257692627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672257692642, "dur":453148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258145986, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258146075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672258146086, "dur":91253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258237438, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258237515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672258237526, "dur":107645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258345275, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258345489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653672258345501, "dur":158322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653672258503950, "dur":260731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255524143, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255524405, "dur":7767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255532193, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653672255532349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255539489, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653672255542658, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1653672255542792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255542883, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1653672255546319, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653672255546427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255547910, "dur":27197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1653672255575223, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1653672255575316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255575327, "dur":6266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1653672255581788, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3.exe" }}
+,{ "pid":12345, "tid":7, "ts":1653672255581885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672255581896, "dur":1982606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3.exe" }}
+,{ "pid":12345, "tid":7, "ts":1653672257564593, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672257564689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672257564703, "dur":96091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672257660919, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672257661041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672257661052, "dur":475791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258136931, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258137011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258137022, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258139950, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258140032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258140045, "dur":68781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258208923, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258209022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258209032, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258214946, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258215044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258215058, "dur":32156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258247352, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258247439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258247451, "dur":18044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258265713, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258265881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258265894, "dur":74328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258340351, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258340662, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258340684, "dur":5129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258345913, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258346014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653672258346023, "dur":418375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653672258764497, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1653672258764499, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255524334, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255524335, "dur":7843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255532194, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1653672255532373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255541402, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1653672255543951, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1653672255544077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255544090, "dur":31760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1653672255575940, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672255576048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255576665, "dur":236221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672255812974, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672255813123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672255813663, "dur":1561951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257375707, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257375825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672257375837, "dur":199973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257575899, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257575979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672257575989, "dur":134750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257710837, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257710943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672257710954, "dur":171944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257882971, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257883038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672257883045, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257885943, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672257886066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672257886074, "dur":283991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258170173, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258170284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258170297, "dur":120905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258291306, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258291547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258291560, "dur":5066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258296747, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258297103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258297117, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258300634, "dur":10269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258310912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258310926, "dur":11742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258322793, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258322886, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258322905, "dur":7907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258330917, "dur":926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258331852, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258331866, "dur":7930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258342386, "dur":2483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258344875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258345112, "dur":12839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258358068, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258359225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258359274, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258364027, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258364407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258364419, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258366789, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258366902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258366916, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258369700, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258369793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258370033, "dur":12368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258382505, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258382601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258382615, "dur":4037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258386749, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258386834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258386853, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258390130, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258390230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258390244, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258394248, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258394329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258394339, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258396847, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258396926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258396936, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258400348, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258400451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258400461, "dur":7507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258408115, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258408403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258408415, "dur":6399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258415004, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258415126, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258415140, "dur":7723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258424082, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258424983, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258425000, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653672258428209, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653672258428337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258428346, "dur":7929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653672258436364, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653672258436446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258436458, "dur":5242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1653672258446472, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1653672258446808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258446818, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1653672258449824, "dur":7505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1653672258457337, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258457351, "dur":14677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1653672258472154, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1653672258472409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653672258472421, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/OneDrive/Ambiente de Trabalho/Plantasya/JOSER_A3_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1653672258477283, "dur":287441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653672258774320, "dur":3183, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1653672258832209, "dur": 2008, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653672258830653, "dur": 3662, "ph": "X", "name": "Write chrome-trace events", "args": {} },

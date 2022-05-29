@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+#OTHER DIR
+JOSER_A3/Library/PackageCache
